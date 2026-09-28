@@ -24,8 +24,11 @@ export default class extends Page {
     }
   }
 
+  // A row is the table's, and says which remote it shows through its state cell.
   private rows(): HTMLElement[] {
-    return Array.from(this.el?.querySelectorAll<HTMLElement>('.remote--row') ?? []);
+    return Array.from(this.el?.querySelectorAll<HTMLElement>('.remote--state[data-remote-key]') ?? [])
+      .map((state) => state.closest<HTMLElement>('tr'))
+      .filter((row): row is HTMLElement => row !== null);
   }
 
   private async check(row: HTMLElement): Promise<void> {
@@ -37,7 +40,7 @@ export default class extends Page {
 
     try {
       const url = (this.app.getService(RoutingService) as RoutingService).path(ROUTE_CHECK, {
-        key: row.dataset.remoteKey,
+        key: row.querySelector<HTMLElement>('.remote--state')?.dataset.remoteKey,
       });
       const response = await fetch(url, { headers: { Accept: 'application/json' } });
       const check = unwrapApiEnvelope<RemoteCheck>(await response.json());

@@ -1,6 +1,13 @@
+// The remotes screen: a card holding the table, a marker per state, and the
+// test button beside each row.
+@use '@wexample/symfony-design-system/css/shapes/block';
+@use '@wexample/symfony-design-system/css/shapes/action-icon';
+@use '@wexample/symfony-design-system/components/data-table/data-table';
+@use '@wexample/symfony-design-system/components/marker/marker';
+
+// The key under the label: what the remote is called in the code.
 .remote--key {
   display: block;
-  opacity: 0.6;
 }
 
 .remote--message {
