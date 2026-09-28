@@ -15,5 +15,9 @@ class WexampleSymfonyRemoteDsExtension extends AbstractWexampleSymfonyExtension
             __DIR__,
             $container
         );
+
+        $config = $this->processConfiguration(new Configuration(), $configs);
+
+        $container->setParameter('wexample_symfony_remote_ds.access_role', $config['access_role']);
     }
 }

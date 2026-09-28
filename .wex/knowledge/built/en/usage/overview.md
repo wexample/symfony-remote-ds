@@ -1,8 +1,8 @@
-Open `/remote/` as an administrator. Each row shows a remote declared through `symfony-remote` — a configured php-api client or any service implementing `RemoteInterface` — and checks it as soon as the page is displayed; "Test" checks it again.
+Open `/remote/` with the configured access role (`ROLE_ADMIN` unless the app says otherwise). Each row shows a remote declared through `symfony-remote` — a configured php-api client or any service implementing `RemoteInterface` — and checks it as soon as the page is displayed; "Test" checks it again.
 
 The states follow `symfony-remote`: `up`, `down` with the reason given by the remote, `unconfigured` with the settings that are missing. The screen checks live and stores nothing.
 
-The check is also reachable on its own, for another screen or a script with an admin session:
+The check is also reachable on its own, for another screen or a script holding that role:
 
 ```
 GET /api/remote/check/{key}
