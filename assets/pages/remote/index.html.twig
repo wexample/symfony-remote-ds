@@ -35,9 +35,9 @@
     {%- endfor -%}
 
     {{ data_table([
-        { key: 'remote', label: '@page::column.remote' | trans, cell: 'html' },
-        { key: 'state', label: '@page::column.state' | trans, cell: 'html', class: 'table--cell--nowrap' },
-        { key: 'latency', label: '@page::column.latency' | trans, cell: 'html', align: 'right', class: 'table--cell--nowrap' },
+        { key: 'remote', label: '@page::column.remote' | trans, cell: 'html', width: 'l' },
+        { key: 'state', label: '@page::column.state' | trans, cell: 'html', width: 'm', class: 'table--cell--nowrap' },
+        { key: 'latency', label: '@page::column.latency' | trans, cell: 'html', align: 'right', width: 's', class: 'table--cell--nowrap' },
         { key: 'message', label: '@page::column.message' | trans, cell: 'html', secondary: true },
         { key: 'test', label: '', cell: 'html', class: 'table--cell--fit' },
     ], rows, {
