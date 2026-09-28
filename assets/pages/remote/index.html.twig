@@ -1,0 +1,46 @@
+{%- extends '@front/layouts/private/layout.html.twig' -%}
+
+{%- set page_show_title = true -%}
+
+{%- block page_body -%}
+    {#- One marker per state, rendered here so the script swaps design-system markup instead of rebuilding it. -#}
+    {%- for state, type in { checking: 'running', up: 'success', down: 'error', unconfigured: 'warning' } -%}
+        <template class="remote--marker" data-state="{{ state }}">{{ marker(type, ('@page::state.' ~ state) | trans, { compact: true }) }}</template>
+    {%- endfor -%}
+
+    <section class="block block--card">
+        <div class="block--body">
+            {%- if remotes is empty -%}
+                <p>{{ '@page::empty' | trans }}</p>
+            {%- else -%}
+                <table class="table remote--table">
+                    <thead>
+                    <tr class="table--row">
+                        <th class="table--cell" scope="col">{{ '@page::column.remote' | trans }}</th>
+                        <th class="table--cell" scope="col">{{ '@page::column.state' | trans }}</th>
+                        <th class="table--cell" scope="col">{{ '@page::column.latency' | trans }}</th>
+                        <th class="table--cell" scope="col">{{ '@page::column.message' | trans }}</th>
+                        <th class="table--cell" scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {%- for key, remote in remotes -%}
+                        <tr class="table--row remote--row" data-remote-key="{{ key }}">
+                            <td class="table--cell">
+                                <strong>{{ remote.label }}</strong>
+                                <small class="remote--key">{{ key }}</small>
+                            </td>
+                            <td class="table--cell remote--state"></td>
+                            <td class="table--cell remote--latency"></td>
+                            <td class="table--cell remote--message"></td>
+                            <td class="table--cell">
+                                <button type="button" class="button remote--test">{{ '@page::test' | trans }}</button>
+                            </td>
+                        </tr>
+                    {%- endfor -%}
+                    </tbody>
+                </table>
+            {%- endif -%}
+        </div>
+    </section>
+{%- endblock -%}

@@ -1,0 +1,14 @@
+page_title: Services distants
+page_icon: ph:bold/plugs-connected
+empty: Aucun service distant n'est déclaré dans cette application.
+test: Tester
+column:
+  remote: Service
+  state: État
+  latency: Latence
+  message: Message
+state:
+  checking: Vérification
+  up: Disponible
+  down: Indisponible
+  unconfigured: Non configuré

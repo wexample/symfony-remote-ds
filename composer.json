@@ -1,11 +1,48 @@
 {
   "name": "wexample/symfony-remote-ds",
-  "version": "1.0.1",
+  "description": "Design-system screens to watch and test the remotes of a Symfony app",
   "type": "library",
   "license": "MIT",
+  "version": "1.0.1",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyRemoteDs\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Wexample\\SymfonyRemoteDs\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "weeger",
+      "email": "romain.weeger@wexample.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.5",
+    "wexample/symfony-api": "*",
+    "wexample/symfony-design-system": "*",
+    "wexample/symfony-helpers": "*",
+    "wexample/symfony-loader": "*",
+    "wexample/symfony-remote": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "repositories": [
+    {
+      "type": "path",
+      "url": "../*",
+      "options": {
+        "symlink": true
+      }
+    }
+  ],
+  "extra": {
+    "install": {
+      "bundle_env": "all"
     }
   }
 }

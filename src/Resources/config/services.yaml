@@ -1,0 +1,13 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+        public: false
+
+    Wexample\SymfonyRemoteDs\Controller\:
+        resource: '../../Controller/'
+        tags: ['controller.service_arguments']
+
+    Wexample\SymfonyRemoteDs\Api\Controller\:
+        resource: '../../Api/Controller/'
+        tags: ['controller.service_arguments']

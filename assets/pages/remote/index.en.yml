@@ -1,0 +1,14 @@
+page_title: Remotes
+page_icon: ph:bold/plugs-connected
+empty: No remote is declared in this application.
+test: Test
+column:
+  remote: Remote
+  state: State
+  latency: Latency
+  message: Message
+state:
+  checking: Checking
+  up: Up
+  down: Down
+  unconfigured: Unconfigured
