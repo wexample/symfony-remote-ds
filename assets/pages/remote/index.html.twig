@@ -34,18 +34,16 @@
         }]) -%}
     {%- endfor -%}
 
-    <section class="block block--card">
-        {{ data_table([
-            { key: 'remote', label: '@page::column.remote' | trans, cell: 'html' },
-            { key: 'state', label: '@page::column.state' | trans, cell: 'html', class: 'table--cell--nowrap' },
-            { key: 'latency', label: '@page::column.latency' | trans, cell: 'html', align: 'right', class: 'table--cell--nowrap' },
-            { key: 'message', label: '@page::column.message' | trans, cell: 'html', secondary: true },
-            { key: 'test', label: '', cell: 'html', class: 'table--cell--fit' },
-        ], rows, {
-            striped: true,
-            hover: true,
-            show_count: true,
-            empty_label: '@page::empty' | trans,
-        }) }}
-    </section>
+    {{ data_table([
+        { key: 'remote', label: '@page::column.remote' | trans, cell: 'html' },
+        { key: 'state', label: '@page::column.state' | trans, cell: 'html', class: 'table--cell--nowrap' },
+        { key: 'latency', label: '@page::column.latency' | trans, cell: 'html', align: 'right', class: 'table--cell--nowrap' },
+        { key: 'message', label: '@page::column.message' | trans, cell: 'html', secondary: true },
+        { key: 'test', label: '', cell: 'html', class: 'table--cell--fit' },
+    ], rows, {
+        striped: true,
+        hover: true,
+        show_count: true,
+        empty_label: '@page::empty' | trans,
+    }) }}
 {%- endblock -%}
