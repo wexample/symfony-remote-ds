@@ -1,0 +1,14 @@
+page_title: ریمورٹس
+page_icon: 'ph:bold/plugs-connected'
+empty: 'اس ایپلیکیشن میں کوئی ریموٹ بیان نہیں کیا گیا۔'
+test: جانچیں
+column:
+  remote: ریموٹ
+  state: حالت
+  latency: لیٹنسی
+  message: پیغام
+state:
+  checking: 'جانچ رہا ہے'
+  up: فعال
+  down: 'غیر فعال'
+  unconfigured: 'غیر تشکیل شدہ'

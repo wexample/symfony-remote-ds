@@ -1,0 +1,14 @@
+page_title: 'Zdalne sterowanie'
+page_icon: 'ph:bold/plugs-connected'
+empty: 'Nie zadeklarowano żadnego zdalnego sterowania w tej aplikacji.'
+test: Test
+column:
+  remote: Zdalne
+  state: Stan
+  latency: Opóźnienie
+  message: Wiadomość
+state:
+  checking: Sprawdzanie
+  up: Działa
+  down: 'Nie działa'
+  unconfigured: 'Nie skonfigurowane'

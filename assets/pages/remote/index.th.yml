@@ -1,0 +1,14 @@
+page_title: รีโมท
+page_icon: 'ph:bold/plugs-connected'
+empty: ไม่มีรีโมทที่ประกาศในแอปพลิเคชันนี้.
+test: ทดสอบ
+column:
+  remote: รีโมท
+  state: สถานะ
+  latency: ความหน่วง
+  message: ข้อความ
+state:
+  checking: กำลังตรวจสอบ
+  up: ออนไลน์
+  down: ออฟไลน์
+  unconfigured: ยังไม่กำหนดค่า

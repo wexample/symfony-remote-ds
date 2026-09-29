@@ -1,0 +1,14 @@
+page_title: Пульты
+page_icon: 'ph:bold/plugs-connected'
+empty: 'В этом приложении не объявлено ни одного пульта.'
+test: Тест
+column:
+  remote: Пульт
+  state: Состояние
+  latency: Задержка
+  message: Сообщение
+state:
+  checking: Проверка
+  up: Работает
+  down: 'Не работает'
+  unconfigured: Неконфигурирован

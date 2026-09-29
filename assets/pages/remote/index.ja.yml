@@ -1,0 +1,14 @@
+page_title: リモート
+page_icon: 'ph:bold/plugs-connected'
+empty: このアプリケーションにリモートは設定されていません。
+test: テスト
+column:
+  remote: リモート
+  state: 状態
+  latency: レイテンシ
+  message: メッセージ
+state:
+  checking: チェック中
+  up: 稼働中
+  down: ダウン
+  unconfigured: 未設定

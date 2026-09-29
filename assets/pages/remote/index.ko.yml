@@ -1,0 +1,14 @@
+page_title: 리모컨
+page_icon: 'ph:bold/plugs-connected'
+empty: '이 애플리케이션에 선언된 리모컨이 없습니다.'
+test: 테스트
+column:
+  remote: 리모컨
+  state: 상태
+  latency: '대기 시간'
+  message: 메시지
+state:
+  checking: '확인 중'
+  up: '작동 중'
+  down: 중지됨
+  unconfigured: '구성되지 않음'

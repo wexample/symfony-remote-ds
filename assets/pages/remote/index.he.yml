@@ -1,0 +1,14 @@
+page_title: שלטים
+page_icon: 'ph:bold/plugs-connected'
+empty: 'לא הוגדר אף שלט באפליקציה זו.'
+test: בדיקה
+column:
+  remote: שלט
+  state: מצב
+  latency: שהות
+  message: הודעה
+state:
+  checking: בודק
+  up: פעיל
+  down: 'לא פעיל'
+  unconfigured: 'לא מוגדר'

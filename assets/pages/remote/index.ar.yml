@@ -1,0 +1,14 @@
+page_title: 'التحكم عن بعد'
+page_icon: 'ph:bold/plugs-connected'
+empty: 'لا توجد جهاز تحكم عن بعد محدد في هذا التطبيق.'
+test: اختبار
+column:
+  remote: 'جهاز التحكم عن بعد'
+  state: الحالة
+  latency: الكمون
+  message: الرسالة
+state:
+  checking: 'جاري التحقق'
+  up: مفعل
+  down: معطل
+  unconfigured: 'غير مكون'
