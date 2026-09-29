@@ -4,10 +4,10 @@ namespace Wexample\SymfonyRemoteDs\Api\Controller;
 
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
+use Wexample\PhpRemote\Class\RemoteRegistry;
 use Wexample\SymfonyApi\Api\Class\ApiResponse;
 use Wexample\SymfonyApi\Api\Controller\AbstractApiController;
 use Wexample\SymfonyHelpers\Controller\AbstractController;
-use Wexample\SymfonyRemote\Service\RemoteRegistry;
 use Wexample\SymfonyRemoteDs\Security\RemoteAccessVoter;
 
 /**

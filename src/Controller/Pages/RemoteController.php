@@ -5,8 +5,8 @@ namespace Wexample\SymfonyRemoteDs\Controller\Pages;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Security\Http\Attribute\IsGranted;
+use Wexample\PhpRemote\Class\RemoteRegistry;
 use Wexample\SymfonyLoader\Controller\AbstractPagesController;
-use Wexample\SymfonyRemote\Service\RemoteRegistry;
 use Wexample\SymfonyRemoteDs\Security\RemoteAccessVoter;
 use Wexample\SymfonyRemoteDs\Traits\SymfonyRemoteDsBundleClassTrait;
 

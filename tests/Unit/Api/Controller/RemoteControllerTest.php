@@ -3,8 +3,8 @@
 namespace Wexample\SymfonyRemoteDs\Tests\Unit\Api\Controller;
 
 use PHPUnit\Framework\TestCase;
-use Wexample\SymfonyRemote\Class\RemoteStatus;
-use Wexample\SymfonyRemote\Service\RemoteRegistry;
+use Wexample\PhpRemote\Class\RemoteRegistry;
+use Wexample\PhpRemote\Class\RemoteStatus;
 use Wexample\SymfonyRemoteDs\Api\Controller\RemoteController;
 use Wexample\SymfonyRemoteDs\Tests\Fixtures\FixedRemote;
 

@@ -1,6 +1,6 @@
 ## Architecture
 
-Two controllers and one page, on top of `symfony-remote`'s `RemoteRegistry`.
+Two controllers and one page, on top of `php-remote`'s `RemoteRegistry`, as `symfony-remote` wires it.
 
 {{ path("src/Controller/Pages/RemoteController.php") }} extends `symfony-loader`'s `AbstractPagesController` and renders `index` with `RemoteRegistry::all()` — labels and keys only, no check, so the page never waits on a remote.
 

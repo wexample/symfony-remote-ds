@@ -2,8 +2,8 @@
 
 namespace Wexample\SymfonyRemoteDs\Tests\Fixtures;
 
-use Wexample\SymfonyRemote\Class\RemoteStatus;
-use Wexample\SymfonyRemote\Interface\RemoteInterface;
+use Wexample\PhpRemote\Class\RemoteStatus;
+use Wexample\PhpRemote\Interface\RemoteInterface;
 
 /**
  * A remote answering whatever status it was built with.
