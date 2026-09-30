@@ -1,0 +1,367 @@
+en:
+  page_title: Remotes
+  page_icon: ph:bold/plugs-connected
+  empty: No remote is declared in this application.
+  test: Test
+  column:
+    remote: Remote
+    state: State
+    latency: Latency
+    message: Message
+  state:
+    checking: Checking
+    up: Up
+    down: Down
+    unconfigured: Unconfigured
+
+ar:
+  page_title: 'التحكم عن بعد'
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'لا توجد جهاز تحكم عن بعد محدد في هذا التطبيق.'
+  test: اختبار
+  column:
+    remote: 'جهاز التحكم عن بعد'
+    state: الحالة
+    latency: الكمون
+    message: الرسالة
+  state:
+    checking: 'جاري التحقق'
+    up: مفعل
+    down: معطل
+    unconfigured: 'غير مكون'
+
+bn:
+  page_title: রিমোট
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'এই অ্যাপ্লিকেশনে কোন রিমোট ঘোষণা করা হয়নি।'
+  test: পরীক্ষা
+  column:
+    remote: রিমোট
+    state: স্থিতি
+    latency: লেটেন্সি
+    message: বার্তা
+  state:
+    checking: 'যাচাই করা হচ্ছে'
+    up: উপর
+    down: নিচে
+    unconfigured: অকনফিগারড
+
+de:
+  page_title: Fernbedienungen
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Keine Fernbedienung in dieser Anwendung deklariert.'
+  test: Test
+  column:
+    remote: Fernbedienung
+    state: Status
+    latency: Latenz
+    message: Nachricht
+  state:
+    checking: Überprüfung
+    up: Aktiv
+    down: Inaktiv
+    unconfigured: 'Nicht konfiguriert'
+
+es:
+  page_title: 'Controles Remotos'
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'No se ha declarado ningún control remoto en esta aplicación.'
+  test: Prueba
+  column:
+    remote: Remoto
+    state: Estado
+    latency: Latencia
+    message: Mensaje
+  state:
+    checking: Verificando
+    up: Arriba
+    down: Abajo
+    unconfigured: 'No configurado'
+
+fa:
+  page_title: کنترل‌ها
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'هیچ کنترل از راه دوری در این برنامه اعلام نشده است.'
+  test: آزمایش
+  column:
+    remote: 'کنترل از راه دور'
+    state: وضعیت
+    latency: تاخیر
+    message: پیام
+  state:
+    checking: 'در حال بررسی'
+    up: فعال
+    down: غیرفعال
+    unconfigured: 'پیکربندی نشده'
+
+fi:
+  page_title: Kaukosäätimet
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Tässä sovelluksessa ei ole määritelty kaukosäädintä.'
+  test: Testaa
+  column:
+    remote: Kaukosäädin
+    state: Tila
+    latency: Viive
+    message: Viesti
+  state:
+    checking: Tarkistetaan
+    up: Toimii
+    down: 'Ei toimi'
+    unconfigured: Määrittelemätön
+
+fr:
+  page_title: Services distants
+  page_icon: ph:bold/plugs-connected
+  empty: Aucun service distant n'est déclaré dans cette application.
+  test: Tester
+  column:
+    remote: Service
+    state: État
+    latency: Latence
+    message: Message
+  state:
+    checking: Vérification
+    up: Disponible
+    down: Indisponible
+    unconfigured: Non configuré
+
+he:
+  page_title: שלטים
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'לא הוגדר אף שלט באפליקציה זו.'
+  test: בדיקה
+  column:
+    remote: שלט
+    state: מצב
+    latency: שהות
+    message: הודעה
+  state:
+    checking: בודק
+    up: פעיל
+    down: 'לא פעיל'
+    unconfigured: 'לא מוגדר'
+
+hi:
+  page_title: रिमोट
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'इस एप्लिकेशन में कोई रिमोट घोषित नहीं है।'
+  test: परीक्षण
+  column:
+    remote: रिमोट
+    state: स्थिति
+    latency: लेटेंसी
+    message: संदेश
+  state:
+    checking: 'जांच रहा है'
+    up: उपरोक्त
+    down: नीचे
+    unconfigured: अविन्यासित
+
+id:
+  page_title: Remote
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Tidak ada remote yang dideklarasikan dalam aplikasi ini.'
+  test: Uji
+  column:
+    remote: Remote
+    state: Status
+    latency: Latensi
+    message: Pesan
+  state:
+    checking: Memeriksa
+    up: Aktif
+    down: 'Tidak Aktif'
+    unconfigured: 'Belum Dikonfigurasi'
+
+it:
+  page_title: Telecomandi
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Nessun telecomando dichiarato in questa applicazione.'
+  test: Test
+  column:
+    remote: Telecomando
+    state: Stato
+    latency: Latenza
+    message: Messaggio
+  state:
+    checking: 'Controllo in corso'
+    up: Attivo
+    down: 'Non attivo'
+    unconfigured: 'Non configurato'
+
+ja:
+  page_title: リモート
+  page_icon: 'ph:bold/plugs-connected'
+  empty: このアプリケーションにリモートは設定されていません。
+  test: テスト
+  column:
+    remote: リモート
+    state: 状態
+    latency: レイテンシ
+    message: メッセージ
+  state:
+    checking: チェック中
+    up: 稼働中
+    down: ダウン
+    unconfigured: 未設定
+
+ko:
+  page_title: 리모컨
+  page_icon: 'ph:bold/plugs-connected'
+  empty: '이 애플리케이션에 선언된 리모컨이 없습니다.'
+  test: 테스트
+  column:
+    remote: 리모컨
+    state: 상태
+    latency: '대기 시간'
+    message: 메시지
+  state:
+    checking: '확인 중'
+    up: '작동 중'
+    down: 중지됨
+    unconfigured: '구성되지 않음'
+
+nl:
+  page_title: Afstandsbedieningen
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Er is geen afstandsbediening gedeclareerd in deze applicatie.'
+  test: Test
+  column:
+    remote: Afstandsbediening
+    state: Status
+    latency: Vertraging
+    message: Bericht
+  state:
+    checking: Controleren
+    up: Actief
+    down: Inactief
+    unconfigured: 'Niet geconfigureerd'
+
+pl:
+  page_title: 'Zdalne sterowanie'
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Nie zadeklarowano żadnego zdalnego sterowania w tej aplikacji.'
+  test: Test
+  column:
+    remote: Zdalne
+    state: Stan
+    latency: Opóźnienie
+    message: Wiadomość
+  state:
+    checking: Sprawdzanie
+    up: Działa
+    down: 'Nie działa'
+    unconfigured: 'Nie skonfigurowane'
+
+pt_BR:
+  page_title: 'Controles Remotos'
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Nenhum controle remoto está declarado neste aplicativo.'
+  test: Teste
+  column:
+    remote: Remoto
+    state: Estado
+    latency: Latência
+    message: Mensagem
+  state:
+    checking: Verificando
+    up: Ativo
+    down: Inativo
+    unconfigured: 'Não Configurado'
+
+ru:
+  page_title: Пульты
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'В этом приложении не объявлено ни одного пульта.'
+  test: Тест
+  column:
+    remote: Пульт
+    state: Состояние
+    latency: Задержка
+    message: Сообщение
+  state:
+    checking: Проверка
+    up: Работает
+    down: 'Не работает'
+    unconfigured: Неконфигурирован
+
+th:
+  page_title: รีโมท
+  page_icon: 'ph:bold/plugs-connected'
+  empty: ไม่มีรีโมทที่ประกาศในแอปพลิเคชันนี้.
+  test: ทดสอบ
+  column:
+    remote: รีโมท
+    state: สถานะ
+    latency: ความหน่วง
+    message: ข้อความ
+  state:
+    checking: กำลังตรวจสอบ
+    up: ออนไลน์
+    down: ออฟไลน์
+    unconfigured: ยังไม่กำหนดค่า
+
+tr:
+  page_title: 'Uzaktan Kumandalar'
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Bu uygulamada tanımlı uzaktan kumanda yok.'
+  test: Test
+  column:
+    remote: 'Uzaktan Kumanda'
+    state: Durum
+    latency: Gecikme
+    message: Mesaj
+  state:
+    checking: 'Kontrol Ediliyor'
+    up: Aktif
+    down: Pasif
+    unconfigured: Yapılandırılmamış
+
+ur:
+  page_title: ریمورٹس
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'اس ایپلیکیشن میں کوئی ریموٹ بیان نہیں کیا گیا۔'
+  test: جانچیں
+  column:
+    remote: ریموٹ
+    state: حالت
+    latency: لیٹنسی
+    message: پیغام
+  state:
+    checking: 'جانچ رہا ہے'
+    up: فعال
+    down: 'غیر فعال'
+    unconfigured: 'غیر تشکیل شدہ'
+
+vi:
+  page_title: 'Điều khiển từ xa'
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 'Không có điều khiển nào được khai báo trong ứng dụng này.'
+  test: 'Kiểm tra'
+  column:
+    remote: 'Điều khiển từ xa'
+    state: 'Trạng thái'
+    latency: 'Độ trễ'
+    message: 'Tin nhắn'
+  state:
+    checking: 'Đang kiểm tra'
+    up: 'Hoạt động'
+    down: 'Ngưng hoạt động'
+    unconfigured: 'Chưa cấu hình'
+
+zh:
+  page_title: 远程控制
+  page_icon: 'ph:bold/plugs-connected'
+  empty: 此应用程序中未声明任何远程控制。
+  test: 测试
+  column:
+    remote: 远程控制
+    state: 状态
+    latency: 延迟
+    message: 消息
+  state:
+    checking: 检查中
+    up: 正常
+    down: 故障
+    unconfigured: 未配置
