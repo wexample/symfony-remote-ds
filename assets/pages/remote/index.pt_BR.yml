@@ -1,0 +1,14 @@
+page_title: 'Controles Remotos'
+page_icon: 'ph:bold/plugs-connected'
+empty: 'Nenhum controle remoto está declarado neste aplicativo.'
+test: Teste
+column:
+  remote: Remoto
+  state: Estado
+  latency: Latência
+  message: Mensagem
+state:
+  checking: Verificando
+  up: Ativo
+  down: Inativo
+  unconfigured: 'Não Configurado'

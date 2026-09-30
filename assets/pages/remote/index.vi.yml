@@ -1,0 +1,14 @@
+page_title: 'Điều khiển từ xa'
+page_icon: 'ph:bold/plugs-connected'
+empty: 'Không có điều khiển nào được khai báo trong ứng dụng này.'
+test: 'Kiểm tra'
+column:
+  remote: 'Điều khiển từ xa'
+  state: 'Trạng thái'
+  latency: 'Độ trễ'
+  message: 'Tin nhắn'
+state:
+  checking: 'Đang kiểm tra'
+  up: 'Hoạt động'
+  down: 'Ngưng hoạt động'
+  unconfigured: 'Chưa cấu hình'

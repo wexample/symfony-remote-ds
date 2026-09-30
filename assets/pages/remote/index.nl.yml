@@ -1,0 +1,14 @@
+page_title: Afstandsbedieningen
+page_icon: 'ph:bold/plugs-connected'
+empty: 'Er is geen afstandsbediening gedeclareerd in deze applicatie.'
+test: Test
+column:
+  remote: Afstandsbediening
+  state: Status
+  latency: Vertraging
+  message: Bericht
+state:
+  checking: Controleren
+  up: Actief
+  down: Inactief
+  unconfigured: 'Niet geconfigureerd'

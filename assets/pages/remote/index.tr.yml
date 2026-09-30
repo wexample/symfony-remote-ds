@@ -1,0 +1,14 @@
+page_title: 'Uzaktan Kumandalar'
+page_icon: 'ph:bold/plugs-connected'
+empty: 'Bu uygulamada tanımlı uzaktan kumanda yok.'
+test: Test
+column:
+  remote: 'Uzaktan Kumanda'
+  state: Durum
+  latency: Gecikme
+  message: Mesaj
+state:
+  checking: 'Kontrol Ediliyor'
+  up: Aktif
+  down: Pasif
+  unconfigured: Yapılandırılmamış
