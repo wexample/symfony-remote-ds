@@ -29,7 +29,7 @@
     "wexample/symfony-remote": ">=2.0.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "*"
+    "phpunit/phpunit": "^13"
   },
   "repositories": [
     {
