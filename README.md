@@ -1,6 +1,6 @@
 # symfony-remote-ds
 
-Version: 3.0.12
+Version: 3.0.13
 
 Open `/remote/` with the configured access role (`ROLE_ADMIN` unless the app says otherwise). Each row shows a remote declared through `symfony-remote` — a configured php-api client or any service implementing `RemoteInterface` — and checks it as soon as the page is displayed; "Test" checks it again.
 
@@ -52,10 +52,10 @@ Visit the [Wexample Suite documentation](https://docs.wexample.com) for the comp
 ## Dependencies
 
 - php: >=8.5
-- wexample/symfony-api: >=11.0.0
-- wexample/symfony-design-system: >=31.0.0
+- wexample/symfony-api: >=12.0.0
+- wexample/symfony-design-system: >=32.0.0
 - wexample/symfony-helpers: >=15.0.0
-- wexample/symfony-loader: >=21.0.0
+- wexample/symfony-loader: >=22.0.0
 - wexample/symfony-remote: >=2.0.0
 
 ## Versioning & Compatibility Policy
