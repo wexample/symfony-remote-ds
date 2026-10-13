@@ -1,6 +1,6 @@
 # symfony-remote-ds
 
-Version: 3.0.15
+Version: 3.0.16
 
 Open `/remote/` with the configured access role (`ROLE_ADMIN` unless the app says otherwise). Each row shows a remote declared through `symfony-remote` — a configured php-api client or any service implementing `RemoteInterface` — and checks it as soon as the page is displayed; "Test" checks it again.
 
