@@ -1,6 +1,6 @@
 # symfony-remote-ds
 
-Version: 3.0.18
+Version: 3.0.19
 
 Open `/remote/` with the configured access role (`ROLE_ADMIN` unless the app says otherwise). Each row shows a remote declared through `symfony-remote` — a configured php-api client or any service implementing `RemoteInterface` — and checks it as soon as the page is displayed; "Test" checks it again.
 
@@ -51,9 +51,9 @@ The suite includes packages for configuration management, file handling, prompts
 
 - php: >=8.5
 - wexample/symfony-api: >=14.0.0
-- wexample/symfony-design-system: >=37.0.0
+- wexample/symfony-design-system: >=38.0.0
 - wexample/symfony-helpers: >=17.0.0
-- wexample/symfony-loader: >=23.2.0
+- wexample/symfony-loader: >=23.3.0
 - wexample/symfony-remote: >=2.0.0
 
 ## Versioning & Compatibility Policy
