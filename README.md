@@ -1,6 +1,6 @@
 # symfony-remote-ds
 
-Version: 3.0.24
+Version: 4.0.0
 
 Design-system screens to watch and test the remotes of a Symfony app
 
