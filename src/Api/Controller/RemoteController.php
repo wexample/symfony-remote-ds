@@ -14,7 +14,7 @@ use Wexample\SymfonyRemoteDs\Security\RemoteAccessVoter;
  * Checks one remote on demand, for the screen's "Test" button. Restricted to
  * the configured access role: every call reaches out to a service outside the app.
  */
-#[Route(path: 'api/remote/', name: 'api_remote_')]
+#[Route(path: '_api/remote/', name: 'api_remote_')]
 #[IsGranted(RemoteAccessVoter::ATTRIBUTE)]
 class RemoteController extends AbstractApiController
 {

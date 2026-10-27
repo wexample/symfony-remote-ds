@@ -5,7 +5,7 @@ The states follow `symfony-remote`: `up`, `down` with the reason given by the re
 The check is also reachable on its own, for another screen or a script holding that role:
 
 ```
-GET /api/remote/check/{key}
+GET /_api/remote/check/{key}
 → {"type": "success", "data": {"key", "label", "state", "message", "latency", "checkedAt"}}
 ```
 
