@@ -3,7 +3,7 @@
   "description": "Design-system screens to watch and test the remotes of a Symfony app",
   "type": "library",
   "license": "MIT",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "autoload": {
     "psr-4": {
       "Wexample\\SymfonyRemoteDs\\": "src/"
@@ -24,7 +24,7 @@
     "php": ">=8.5",
     "wexample/symfony-api": ">=16.0.0",
     "wexample/symfony-design-system": ">=40.0.0",
-    "wexample/symfony-helpers": ">=19.0.0",
+    "wexample/symfony-helpers": ">=19.1.0",
     "wexample/symfony-loader": ">=25.3.0",
     "wexample/symfony-remote": ">=2.0.10"
   },
